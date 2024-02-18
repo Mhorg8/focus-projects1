@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus Project</title>
+    <link rel="stylesheet" href="output.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75,300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/f82e7d4fe2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="">
+    <header>
+      <div class="container flex items-center justify-between py-7">
+        <nav class="nav">
+          <a href="#" class="logo font-semibold text-white md:hidden">LOGO</a>
+          <ul class="navbar hidden 2 md:flex items-center gap-x-5">
+            <li class="nav-item">
+              <a href="#" class="logo font-semibold text-white">LOGO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our science</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gift</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- sign in and login  -->
+        <div class="flex items-center gap-x-2 md:gap-x-4">
+          <a class="nav-link text-sm md:text-base" href="#">Sign in</a>
+          <!-- login btn -->
+          <button class="btn text-sm md:text-base">
+            Try Brain.fm for free
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero section -->
+      <section class="hero-section">
+        <div class="container grid grid-cols-1 lg:grid-cols-2 min-h-[100vh]">
+          <!-- hero images -->
+          <div
+            class="img-content flex items-center justify-center md:h-[74%] col-span-1 lg:col-span-1 relative lg:order-2"
+          >
+            <!-- mobile img -->
+            <img
+              class="h-full w-full object-contain lg:hidden select-none"
+              src="../images/hero_mobile_march_23.webp"
+              alt=""
+            />
+            <!-- large img -->
+            <img
+              class="hidden lg:block w-full h-full object-contain select-none"
+              src="../images/Music to Focus Better - Brain.fm_files/images_hero_march_2023_opt_full.png"
+              alt=""
+            />
+          </div>
+          <!-- hero text content -->
+          <div
+            class="hero-text-content flex flex-col gap-y-5 items-start justify-start ml-5 md:items-center md:justify-start md:order-1"
+          >
+            <h1
+              class="hero__title font-bold text-[2.5rem] lg:text-[3rem] lg:leading-[48px] select-none text-white text-center md:text-left w-full"
+            >
+              Music scientifically <br />proven to increase focus
+            </h1>
+            <p
+              class="w-full text-[1.3rem] text-gray-color text-center md:text-left leading-6 mb-6"
+            >
+              Get more done with less effort, and <br />unlockyour best self on
+              demand
+            </p>
+
+            <!-- login optins -->
+            <div
+              class="flex flex-col w-full md:items-start md:justify-start items-center justify-cente cursor-pointer gap-y-6"
+            >
+              <button class="btn-secondary">Login with Google</button>
+              <button class="btn border-t-white-color">
+                Sign up with email
+              </button>
+              <!-- featured in  -->
+              <div class="features">
+                <p class="text-gray-color font-semibold text-sm my-3">
+                  FEATURED IN
+                </p>
+                <img src="../images/featured_in.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="container grid grid-cols-1 md:grid-cols-2 min-h-[100vh] mt-[150px]"
+        >
+          <!-- description text content -->
+          <div
+            class="description-text-content w-full h-full px-10 order-2 md:order-1"
+          >
+            <h3
+              class="text-[1.5rem] md:text-[2rem] leading-7 font-bold text-white mb-5"
+            >
+              Your most productive <br />
+              day, on demand.
+            </h3>
+            <p class="text-gray-color md:text-[1.2rem] mb-5">
+              Brain.fm’s focus music is made to help you work better, by
+              blending into the background so you can focus distraction-free...
+              all while stimulating the brain with gentle rhythmic pulses in the
+              music that support sustained attention.
+            </p>
+            <p class="text-gray-color md:text-[1.2rem] mb-10">
+              Other music is made to grab your attention, making it hard to
+              think and work, even if you don’t realize it. Brain.fm’s
+              functional music is designed from the bottom up to affect your
+              brain and optimize your performance.
+            </p>
+
+            <a
+              href="#"
+              class="font-semibold text-[1rem] text-[#3952f5] try-yourself duration-150"
+              >Try it yourself <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+
+          <!-- description img content -->
+          <div class="w-full h-full order-1 md:order-2">
+            <img
+              class="w-full h-full object-cover"
+              src="../images/product_description_1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div
+          class="container w-full h-[100vh] py-10 grid grid-cols-1 md:grid-cols-2 items-start justify-start"
+        >
+          <!-- text conent -->
+          <div
+            class="flex md:w-full w-full items-start justify-center flex-col text-content h-full px-10"
+          >
+            <h3
+              class="text-[1.5rem] md:text-[2rem] leading-7 font-bold text-white mb-5"
+            >
+              Real science with extraordinary results
+            </h3>
+            <p class="text-gray-color md:text-[1.2rem] mb-5">
+              Scientists at Brain.fm work with academic institutions to observe
+              the effects of our technology on the brain using fMRI, EEG, and
+              behavioral studies. We always include placebo groups in our tests
+              to ensure our tech is what makes the difference.
+            </p>
+
+            <a
+              href="#"
+              class="font-semibold text-[1rem] text-[#3952f5] try-yourself duration-150"
+              >See our science
+              <i class="fa-solid fa-arrow-right align-middle"></i
+            ></a>
+            <div
+              class="mt-10 pt-10 flex items-center gap-x-5 border-t border-gray-color"
+            >
+              <div class="w-[120px] h-[100px]">
+                <img
+                  class="w-full h-full cursor-pointer"
+                  src="../images/Music to Focus Better - Brain.fm_files/nsf.png"
+                  alt=""
+                />
+              </div>
+              <p class="text-white font-medium">
+                Brain.fm is supported by the National Science Foundation
+              </p>
+            </div>
+          </div>
+
+          <!-- img content -->
+          <div class="md:w-full h-full overflow-hidden mt-10 p-2">
+            <img
+              class="w-full h-full object-cover scale-150"
+              src="../images/science_description.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- video -->
+      <section>
+        <div class="container mt-20 flex flex-col items-center px-[5%]">
+          <h3
+            class="text-[1.5rem] text-center md:text-[2rem] leading-7 font-bold text-white mb-5"
+          >
+            Learn more about how Brain.fm works
+          </h3>
+
+          <div class="w-full h-[80%] py-10">
+            <video
+              class="rounded-2xl h-[70%] w-full"
+              src="../images/bfm-more.mp4"
+              controls
+            ></video>
+          </div>
+        </div>
+      </section>
+      <!-- frequently questions -->
+      <section class="container mt-20 flex flex-col items-center px-[5%]">
+        <h3
+          class="text-[1.5rem] md:text-[2rem] leading-7 font-bold text-white mb-5"
+        >
+          Frequently asked questions
+        </h3>
+        <!-- accordion -->
+        <div class="accordion-container w-full">
+          <div class="flex flex-col mt-20 w-full">
+            <div
+              class="qusstionAndAnswer border-gray-color w-[90%] py-5 flex flex-col gap-y-3"
+            >
+              <h3
+                class="relative font-semibold text-white qusstion md:text-[1.5rem]"
+              >
+                Why does brain.fm increase focus?
+              </h3>
+              <div class="qusstion-text text-white text-[1.2rem]">
+                <p>
+                  Your brainwaves operate at different speeds (Hz) that
+                  scientists generally break down into 4 categories that are
+                  associated with different mental states.
+                </p>
+                <ul>
+                  <li class="ml-5">1.Delta (0.5-4 Hz) - Deep sleep</li>
+                  <li class="ml-5">
+                    2.Theta (4-8 Hz) - Light sleep and deep relaxation
+                  </li>
+                  <li class="ml-5">
+                    3.Alpha (8-12 Hz) - Relaxed wakefulness, creativity, and
+                    meditation
+                  </li>
+                  <li class="ml-5">
+                    4.Beta (12-30 Hz) - Active thinking, problem-solving, and
+                    focus Brain.fm
+                  </li>
+                </ul>
+                <p>
+                  identifies the optimal Hz range for a given mental state and
+                  translates it into volume modulations within certain areas of
+                  our music. This encourages your brain to increase the power
+                  level of brainwaves that are equal to or similar to the
+                  patterns we've embedded in the music.
+                </p>
+                <p>
+                  This process not only enhances brainwave activity but also
+                  synchronizes your brainwaves throughout your brain, making it
+                  easier for different parts of your brain to work together more
+                  seamlessly. It may sound wild, but we've conducted quality
+                  research, published multiple papers, and received a grant from
+                  the National Science Foundation to continue our work. In
+                  short—brain.fm is a safe, evidence-based way to hack your
+                  brain and take control of your mental state on demand using
+                  sound.
+                </p>
+              </div>
+            </div>
+
+            <div class="qusstionAndAnswer border-gray-color w-[90%] py-5">
+              <h3
+                class="relative font-semibold text-white qusstion md:text-[1.5rem]"
+              >
+                Is this the same as binaural beats?
+              </h3>
+              <div class="qusstion-text text-white text-[1.2rem] gap-y-5">
+                <p>
+                  Your brainwaves operate at different speeds (Hz) that
+                  scientists generally break down into 4 categories that are
+                  associated with different mental states.
+                </p>
+                <ul>
+                  <li class="ml-5">1.Delta (0.5-4 Hz) - Deep sleep</li>
+                  <li class="ml-5">
+                    2.Theta (4-8 Hz) - Light sleep and deep relaxation
+                  </li>
+                  <li class="ml-5">
+                    3.Alpha (8-12 Hz) - Relaxed wakefulness, creativity, and
+                    meditation
+                  </li>
+                  <li class="ml-5">
+                    4.Beta (12-30 Hz) - Active thinking, problem-solving, and
+                    focus Brain.fm
+                  </li>
+                </ul>
+                <p>
+                  identifies the optimal Hz range for a given mental state and
+                  translates it into volume modulations within certain areas of
+                  our music. This encourages your brain to increase the power
+                  level of brainwaves that are equal to or similar to the
+                  patterns we've embedded in the music.
+                </p>
+                <p>
+                  This process not only enhances brainwave activity but also
+                  synchronizes your brainwaves throughout your brain, making it
+                  easier for different parts of your brain to work together more
+                  seamlessly. It may sound wild, but we've conducted quality
+                  research, published multiple papers, and received a grant from
+                  the National Science Foundation to continue our work. In
+                  short—brain.fm is a safe, evidence-based way to hack your
+                  brain and take control of your mental state on demand using
+                  sound.
+                </p>
+              </div>
+            </div>
+
+            <div class="qusstionAndAnswer border-gray-color w-[90%] py-5">
+              <h3
+                class="relative font-semibold text-white qusstion md:text-[1.5rem]"
+              >
+                How large are your scientific studies?
+              </h3>
+              <div
+                class="qusstion-text text-white text-[1.2rem] gap-y-5 gap-y-"
+              >
+                <p>
+                  Your brainwaves operate at different speeds (Hz) that
+                  scientists generally break down into 4 categories that are
+                  associated with different mental states.
+                </p>
+                <ul>
+                  <li class="ml-5">1.Delta (0.5-4 Hz) - Deep sleep</li>
+                  <li class="ml-5">
+                    2.Theta (4-8 Hz) - Light sleep and deep relaxation
+                  </li>
+                  <li class="ml-5">
+                    3.Alpha (8-12 Hz) - Relaxed wakefulness, creativity, and
+                    meditation
+                  </li>
+                  <li class="ml-5">
+                    4.Beta (12-30 Hz) - Active thinking, problem-solving, and
+                    focus Brain.fm
+                  </li>
+                </ul>
+                <p>
+                  identifies the optimal Hz range for a given mental state and
+                  translates it into volume modulations within certain areas of
+                  our music. This encourages your brain to increase the power
+                  level of brainwaves that are equal to or similar to the
+                  patterns we've embedded in the music.
+                </p>
+                <p>
+                  This process not only enhances brainwave activity but also
+                  synchronizes your brainwaves throughout your brain, making it
+                  easier for different parts of your brain to work together more
+                  seamlessly. It may sound wild, but we've conducted quality
+                  research, published multiple papers, and received a grant from
+                  the National Science Foundation to continue our work. In
+                  short—brain.fm is a safe, evidence-based way to hack your
+                  brain and take control of your mental state on demand using
+                  sound.
+                </p>
+              </div>
+            </div>
+
+            <div class="qusstionAndAnswer border-gray-color w-[90%] py-5">
+              <h3
+                class="relative font-semibold text-white qusstion md:text-[1.5rem]"
+              >
+                Is this only for people with ADHD?
+              </h3>
+              <div
+                class="qusstion-text text-white text-[1.2rem] gap-y-5 gap-y-"
+              >
+                <p>
+                  Your brainwaves operate at different speeds (Hz) that
+                  scientists generally break down into 4 categories that are
+                  associated with different mental states.
+                </p>
+                <ul>
+                  <li class="ml-5">1.Delta (0.5-4 Hz) - Deep sleep</li>
+                  <li class="ml-5">
+                    2.Theta (4-8 Hz) - Light sleep and deep relaxation
+                  </li>
+                  <li class="ml-5">
+                    3.Alpha (8-12 Hz) - Relaxed wakefulness, creativity, and
+                    meditation
+                  </li>
+                  <li class="ml-5">
+                    4.Beta (12-30 Hz) - Active thinking, problem-solving, and
+                    focus Brain.fm
+                  </li>
+                </ul>
+                <p>
+                  identifies the optimal Hz range for a given mental state and
+                  translates it into volume modulations within certain areas of
+                  our music. This encourages your brain to increase the power
+                  level of brainwaves that are equal to or similar to the
+                  patterns we've embedded in the music.
+                </p>
+                <p>
+                  This process not only enhances brainwave activity but also
+                  synchronizes your brainwaves throughout your brain, making it
+                  easier for different parts of your brain to work together more
+                  seamlessly. It may sound wild, but we've conducted quality
+                  research, published multiple papers, and received a grant from
+                  the National Science Foundation to continue our work. In
+                  short—brain.fm is a safe, evidence-based way to hack your
+                  brain and take control of your mental state on demand using
+                  sound.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- full width box -->
+
+        <div
+          class="w-full flex flex-col items-start justify-center px-14 gap-y-5 h-[300px] bg-[#3851f5] bg-gradint-color mt-20 rounded-3xl"
+        >
+          <h3
+            class="text-[1.5rem] md:text-[2rem] leading-7 font-bold text-white mb-5"
+          >
+            Get started with <br />
+            brain.fm today.
+          </h3>
+          <p class="text-white font-medium">
+            Our science-first approach creates music that sounds different and
+            affects your brain differently than any other music.
+          </p>
+
+          <button class="btn-secondary">
+            <a href="../dist/free-trial.html">Start free trial</a>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div
+        class="container mt-20 h-full grid grid-cols-1 md:grid-cols-2 items-center justify-between"
+      >
+        <!-- section 1 -->
+        <div
+          class="flex flex-col h-full items-center md:items-start md:justify-start gap-y-3"
+        >
+          <a href="#home" class="font-bold text-2xl text-white">LOGO</a>
+          <!-- social links -->
+          <div class="flex items-center gap-x-5">
+            <i class="fa-brands fa-instagram text-[#fc4576] text-xl"></i>
+            <i class="fa-brands fa-facebook text-[#fc4576] text-xl"></i>
+            <i class="fa-brands fa-twitter text-[#fc4576] text-xl"></i>
+          </div>
+          <!-- text -->
+          <p class="text-white text-center text-sm">
+            © 2024 BRAINFM, INC. <br />
+            MADE WITH LOVE IN TEHRAN
+          </p>
+        </div>
+        <!-- section 2 -->
+        <div
+          class="grid grid-cols-4 items-start justify-between md:mt-0 mt-10 gap-x-20"
+        >
+          <!-- Learn more -->
+          <ul class="col-span-2 md:col-span-1 flex flex-col gap-y-3">
+            <h4 class="font-semibold text-white">LEARN MORE</h4>
+            <li><a class="text-gray-color" href="#">About us</a></li>
+            <li><a class="text-gray-color" href="#">Our science</a></li>
+            <li><a class="text-gray-color" href="#">Press</a></li>
+            <li><a class="text-gray-color" href="#">Pricing</a></li>
+            <li><a class="text-gray-color" href="#">Work with us</a></li>
+            <li><a class="text-gray-color" href="#">Gift</a></li>
+          </ul>
+
+          <!-- more resources -->
+          <ul class="col-span-2 md:col-span-1 flex flex-col gap-y-3">
+            <h4 class="font-semibold text-white">LEARN MORE</h4>
+            <li><a class="text-gray-color" href="#">Contact us</a></li>
+            <li><a class="text-gray-color" href="#">Terms of use</a></li>
+            <li><a class="text-gray-color" href="#">Legal</a></li>
+            <li><a class="text-gray-color" href="#">Privacy</a></li>
+          </ul>
+
+          <!-- ul -->
+
+          <ul
+            class="col-span-4 md:col-span-2 flex flex-wrap flex-col items-center justify-center mt-10 md-mt-0 gap-y-3"
+          >
+            <li><img src="../images/listen-apple.svg" alt="" /></li>
+            <li><img src="../images/listen-google.svg" alt="" /></li>
+            <li><img src="../images/listen-mybrainfm.svg" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[226],{226:function(e,c,n){n.r(c),n(959);var i=n(6841),t=n(5140),s=n(7593),r=n(1527);c.default=function(){return(0,r.jsxs)(r.Fragment,{children:[(0,r.jsx)(s.VV,{children:(0,r.jsx)(t.F,{action:"Our Science Header Click",link:"/science",text:"Our science"})}),(0,r.jsx)(s.Ec,{children:(0,r.jsx)(t.F,{action:"About Us Header Click",link:"/about",text:"About us"})}),(0,r.jsx)(s.Ec,{children:(0,r.jsx)(t.F,{action:"Gift Click",link:i.zn,text:"Gift"})})]})}}}]);
+//# sourceMappingURL=226.efaa54efcc90bc84.js.map

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free-Trial</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75,300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper w-full h-[100vh] flex items-center justify-center">
+      <div
+        class="container h-[500px] w-[600px] flex flex-col items-center justify-start gap-y-20"
+      >
+        <!-- timer container -->
+        <div
+          class="timer w-[300px] h-[300px] relative rounded-full bg-blue-color flex items-center justify-center"
+        >
+          <span id="time" class="font-bold text-[48px] text-white">25:00</span>
+        </div>
+        <!-- timer btns -->
+        <div
+          class="grid grid-cols-12 place-items-center gap-y-3 gap-x-8 w-full"
+        >
+          <button id="start-timer" class="timer-btn col-span-12 md:col-span-3">
+            START
+          </button>
+          <button id="pause" class="timer-btn col-span-4 md:col-span-3">
+            PAUSE
+          </button>
+          <button id="shortBreak" class="timer-btn col-span-4 md:col-span-3">
+            SHORT BREAK
+          </button>
+          <button id="reset-btn" class="timer-btn col-span-4 md:col-span-3">
+           RESET
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f82e7d4fe2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

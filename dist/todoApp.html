@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus-Project / Todo App</title>
+
+    <link rel="stylesheet" href="output.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75,300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/f82e7d4fe2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container flex items-center justify-between py-7 w-full">
+        <nav class="nav">
+          <a href="#" class="logo font-bold text-white md:hidden">FOCUS</a>
+          <ul class="navbar hidden 2 md:flex items-center gap-x-5">
+            <li class="nav-item">
+              <a href="#" class="logo text-2xl font-bold text-white">FOCUS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our science</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gift</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- sign in and login  -->
+        <div class="flex items-center gap-x-2 md:gap-x-4">
+          <!-- login btn -->
+          <ul class="flex img-content md:gap-x-5 gap-x-3">
+            <li>
+              <a
+                class="nav-link text-base md:text-base"
+                href="../dist/landingPage.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link text-base md:text-base"
+                href="../dist/timer.html"
+                >Timer</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><a class="nav-link text-base md:text-base" href="#"
+                  >Sign in</a
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrapper px-10 mt-12">
+        <div
+          class="container min-h-[500px] md:h-[500px] md:w-[600px] flex flex-col py-5 items-center justify-start bg-blue-color rounded-2xl"
+        >
+          <!-- todo input  -->
+          <div class="w-full mb-5 flex flex-col">
+            <h1 class="text-center text-3xl font-bold text-white-color mb-3">
+              Focus Project
+            </h1>
+            <!-- input box -->
+            <div class="w-full relative">
+              <input
+                id="user-input"
+                class="rounded-xl py-3 px-5 w-full outline-none border-none"
+                type="text"
+                placeholder="Todo ..."
+              />
+              <button
+                id="add-todo-btn"
+                class="absolute right-4 top-1/2 -translate-y-1/2 w-[30px] h-[30px] rounded-full text-blue-color bg-gray-color"
+              >
+                <i class="fa-solid fa-plus add-todo-icon"></i>
+              </button>
+            </div>
+          </div>
+          <ul
+            class="todos-list grid grid-cols-12 gap-y-5 gap-x-5 w-full h-full overflow-hidden"
+          ></ul>
+        </div>
+      </div>
+    </main>
+
+    <script src="../dist/todoApp.js"></script>
+  </body>
+</html>
